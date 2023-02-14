@@ -43,13 +43,6 @@ header {
   height: 60px;
 }
 
-.header_logo_link{
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  margin: 0 auto;
-}
-
 .logo_text{
   display: none;
   color: #1576C4;
@@ -627,6 +620,13 @@ header {
 
   .logo_text{
     display: block;
+  }
+
+  .header_logo_link{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
   }
 
   .hero_title_wrapper{
