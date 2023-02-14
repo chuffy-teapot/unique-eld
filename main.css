@@ -43,6 +43,21 @@ header {
   height: 60px;
 }
 
+.header_logo_link{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.logo_text{
+  display: none;
+  color: #1576C4;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-left: 15px;
+}
+
 .header_list {
   margin: 0px;
   padding: 0px;
@@ -586,7 +601,61 @@ header {
     font-size: 20px;
   }
 
-  .partners_title{
+  .partners_title {
     font-size: 35px;
+  }
+
+  .footer_posts_title {
+    font-size: 16px;
+  }
+
+  .footer_info_text,
+  .footer_posts_text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width:520px) {
+  .container {
+    max-width: 350px;
+  }
+
+  header {
+    background-position: right -100px top 0;
+    height: 100vh;
+  }
+
+  .logo_text{
+    display: block;
+  }
+
+  .hero_title_wrapper{
+    padding-top: 90px;
+  }
+  
+  .hero_title {
+    font-size: 30px;
+  }
+
+  .hero_title_bottom{
+    margin-bottom: 250px;
+  }
+
+  .header_list{
+    display: none;
+  }
+
+  .mobile{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .mobile_content{
+    width: 100%;
+  }
+
+  .mobile_img_wrap{
+    margin: 0 auto;
   }
 }
